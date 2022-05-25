@@ -2,7 +2,7 @@ package com.liujin.algorithm.dataStructure;
 
 import java.util.Stack;
 
-//实现一个特殊的栈，在基本功能基础上，在实习一个返回栈中最小元素的功能，要求push、pop、getMin操作时间复杂度O(1)
+//实现一个特殊的栈，在基本功能基础上，在实现一个返回栈中最小元素的功能，要求push、pop、getMin操作时间复杂度O(1)
 public class Code04_GetMinStack {
     public static class MyStack1 {
         private Stack<Integer> stackData;
